@@ -1,0 +1,15 @@
+During Dinner time, I was sharing my recent progress in my projects with my roommate Garrett
+I proposed that we should use the Markov model that I used to generate sentences with Garrett's writing.
+Garrett is a writer. I think it'd be very interesting to have someone look at computer algorithms generated sentences out of his own writing. So far, I've only been playing with generated text that has no evaluator besides myself. And I'm excited just to see writer's own reaction towards potential discoveries in regard to his writing style, reflected by the algorithms that pick up patterns and particular grammar structure.
+
+We started with two writing samples from him. Each is about 10 pages-long. I loaded the text to the Markov model(Markovify python library), and set the sentence character limit to 250. The with a for loop, the model successfully spit out 50 sentences based on Garrett's writing. I've never read his writing samples before, so the output was fresh and fun for me to read through. We sit side by side, starting to read some of the combinations. It turns out many sentences are strangely beautiful. For example, one is "Her hair is a damp pink. She tuck it up together.". It weirdly made sense and was poetically charming. There are many more sentences that are just bizarrely fascinating. It also made Garrett realize that his writing style is a bit dark as many of the results we got had a very dark turn–"My brother died a few more time." 
+
+The thing about the Markov Chain model is that it doesn't generate new content that didn't exist in the input. It structures new content based on probability of how frequent one word came after the other word in the original text corpus. Garrett was very intrigued and decided to combine another writing of his, which apparently has a drastic difference in terms of the writing styles and content, just to see how things would turn out differently. 
+
+We ended up with somewhat similar but also crazy different output. Garrett said some of the sentences are really good, and he wrote some down in his notebook. I think what interested him  was that these words that he tend to use often were put together in a different ways that he hasn't imagined. It felt like is his writing, but at the same time is not. The overall feedback wasn't him getting freaked out, but us imagining what this can be for something else?
+
+I do value the human touch, and I think it's important to incorporate that in whatever I produce as the outcome of my thesis. I believe just having algorithms spitting out text can be very bland and flavorless.
+
+We thought of a feedback loop where he is asked to use these generated sentences to patch back together a writing corpus in a way that makes sense to him. We thought it'd be interesting to have a professional improv actor reenact the markov output of their scripts. We might do more experiments in relation to his writing and my project. We will see how it goes.
+
+
